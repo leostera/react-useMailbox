@@ -1,0 +1,16 @@
+{
+  "name": "react-useMailbox",
+  "version": "0.0.1",
+  "description": "A React Hook to turn components into Actors.",
+  "main": "index.js",
+  "repository": "https://github.com/ostera/react-useMailbox",
+  "author": "Leandro Ostera <leandro@ostera.io>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "fastpack": "^0.9.1",
+    "prettier": "^1.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
