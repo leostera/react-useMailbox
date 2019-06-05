@@ -6,7 +6,10 @@ Status: _experimental_.
 This is really just a proof of concept that late-binding and asynchronouse
 message-passing on top of React Hooks is possible, albeit a clunky.
 
-<img src="http://www.giphy.com/gifs/lqkMptDWhT2UV0SrUg" />
+Here's 3 components, communicating via message passing where a Span has a
+mailbox and processes messages to display text, and to uppercase text.
+
+<img src="https://media.giphy.com/media/lqkMptDWhT2UV0SrUg/giphy.gif" />
 
 #### Why is this useful?
 Well, for starters it lets you structure your
