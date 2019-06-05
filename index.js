@@ -6,7 +6,10 @@ export const send = (pid, message) => {
   const entry = mailboxes[pid]
   if (entry) {
     const { mailbox, setMailbox } = entry;
-    setTimeout(() => setMailbox([...mailbox, message]), 0);
+    setTimeout(() => {
+      console.log(pid, "<-", message);
+      setMailbox([...mailbox, message])
+    }, 0);
   }
 };
 
