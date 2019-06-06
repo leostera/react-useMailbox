@@ -17,7 +17,7 @@ applications without being tied to your component hierarchy. That is, you can
 sort of organize your components in whatever way makes most sense, and if you
 want to you can have all of your application as a bunch of sibling components.
 
-Sample usage:
+## Sample Usage
 
 ```js
 import * as Actors from 'react-useMailbox';
